@@ -1,10 +1,10 @@
 import {LitElement, customElement, html} from 'lit-element'
 
-@customElement('my-element')
+@customElement('electron-keyboard-interface')
 class MyElement extends LitElement {
   render() {
     return html`
-      <div>Hello World</div>
+      <div>Log In:</div>
     `
   }
 }

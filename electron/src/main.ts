@@ -1,19 +1,5 @@
 // Modules to control application life and create native browser window
-import {app, BrowserWindow, protocol} from 'electron';
-
-// Base path used to resolve modules
-const base = app.getAppPath();
-
-// Protocol will be "app://./…"
-const scheme = 'app';
-
-/* Protocol */
-// Registering must be done before app::ready fires
-// (Optional) Technically not a standard scheme but works as needed
-protocol.registerStandardSchemes([scheme], { secure: true });
-
-// Create protocol
-require('./create-protocol')(scheme, base);
+import {app, BrowserWindow} from 'electron';
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
