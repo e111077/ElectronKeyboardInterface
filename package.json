@@ -1,0 +1,31 @@
+{
+  "name": "electron-keyboard-interface",
+  "version": "0.0.1",
+  "description": "",
+  "main": "electron/lib/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e111077/ElectronKeyboardInterface.git"
+  },
+  "author": "me@elliottmarquez.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/e111077/ElectronKeyboardInterface/issues"
+  },
+  "homepage": "https://github.com/e111077/ElectronKeyboardInterface#readme",
+  "devDependencies": {
+    "electron": "^4.0.5",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "lit-element": "^2.0.1"
+  }
+}
